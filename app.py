@@ -30,7 +30,7 @@ input_data = pd.DataFrame([{
     "Previous Scores": Previous_Scores,
     "Sleep Hours": Sleep_Hours,
     "Sample Question Papers Practiced": Practiced_Papers
-}])
+}],index=[0])
 
 # Display the prepared dataframe in the UI for visibility
 st.write("Formatted Input Data:", input_data)
