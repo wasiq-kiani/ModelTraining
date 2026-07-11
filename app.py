@@ -20,7 +20,7 @@ model = load_model()
 st.subheader("Input Features")
 Hours_Studied= st.number_input("Hours Studied:", min_value=0, max_value=10)
 Previous_Scores = st.number_input("Previous Scores:", min_value=0, max_value=100)
-Sleep_Hours = st.number_input("Sleep Hours:", min_value=0, max_value=24)
+Sleep_Hours = st.number_input("Sleep Hours:", min_value=0, max_value=10)
 Practiced_Papers = st.number_input("Sample Question Papers Practiced:", min_value=0, max_value=10)
 
 # 4. Convert inputs into a pandas DataFrame
